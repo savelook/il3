@@ -1,0 +1,126 @@
+############################# banner ############################
+banner:
+  enable : true
+  title : "Despigmentantes"
+  content : "Aclarante y despigmentante que brinda a la piel de forma inmediata una apariencia uniforme."
+  image : "images/watch.png"
+  button:
+   enable : true
+   label : "VER MAS"
+   link : "products"
+
+############################# Feature ############################
+features:
+  enable : true
+  title : "Nuestras Características Principales"
+  image : "images/watch-2.png"
+
+  # feature at the left of the image
+  left_side:
+    # feature item loop
+  - title : "Tacto suave"
+    icon : "tf-ion-ios-alarm-outline"
+    content : ""
+    
+    # feature item loop
+  - title : "Diseño elegante"
+    icon : "tf-ion-ios-bell-outline"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    
+    # feature item loop
+  - title : "Precios fáciles"
+    icon : "tf-ion-ios-cart-outline"
+    content : ""
+
+
+  # feature at the right of the image
+  right_side:
+    # feature item loop
+  - title : "Tacto suave"
+    icon : "tf-ion-ios-alarm-outline"
+    content : ""
+
+    # feature item loop
+  - title : "Diseño elegante"
+    icon : "tf-ion-ios-bell-outline"
+    content : ""
+
+    # feature item loop
+  - title : "Precios fáciles"
+    icon : "tf-ion-ios-cart-outline"
+    content : ""
+
+
+############################# promo ############################
+promo:
+  enable : true
+  image : "images/watch.png"
+  title : "Nosotros"
+  content : "En la sociedad moderna, la lucha contra el paso del tiempo comienza cada vez más temprano y mantener un aspecto joven y saludable ha cobrado una importancia relevante. Muchas personas sienten ansiedad ante los signos visibles del envejecimiento y buscan el consejo de un profesional de la salud, para mantener una piel sana y atractiva, siendo éste el gran reto que tienen por delante todos los especialistas dedicados al cuidado de la piel."
+
+
+############################# About Product #######################
+about_product:
+  enable : true
+  title : "Nosotros?"
+  items:
+    # about product item loop
+    - image : "images/showcase/showcase-4.png"
+      title : "Nosotros"
+      content : "Medihealth, con más de 25 años de experiencia en el desarrollo de productos dermatológicos de prescripción médica para el cuidado de la piel, presenta la línea de productos dermo-cosméticos para tratar el envejecimiento cutáneo, elaborada con activos biodisponibles que aportan los elementos necesarios para revitalizar la piel y darle un aspecto más joven, luminoso y atractivo: Hidrisage."
+      button:
+        enable : false
+        label : "Check Features"
+        link : "#"
+        
+    # about product item loop
+    - image : "images/showcase/showcase-3.png"
+      title : "Ma´at Mousse Maquillaje Corrector"
+      content : "Cubre imperfecciones<br>
+      Antiacné<br>
+Alta protección solar<br>
+Maat - Hidrisage<br>
+Maat - Hidrisage"
+      button:
+        enable : false
+        label : "Ver características"
+        link : "#"
+
+
+#################################### Products ########################
+products:
+  enable : true
+  title : "Echa un vistazo a todos nuestros productos"
+
+
+################################## Subscription ###################
+subscription:
+  enable : true
+  bg_image : "images/call-to-action.jpg"
+  title : "Newsletter"
+  content : "Suscríbete a nuestro boletín para recibir notificaciones sobre nuevas actualizaciones, información y descuentos."
+  placeholder : "Suscríbete"
+
+
+############################## Testimonial ##########################
+testimonial:
+  enable : true
+  title : "Watch Review"
+  testimonial_item:
+    # testimonial item loop
+    - name : "Raquel Acosta"
+      designation : ""
+      image : "images/avater.png"
+      content : "Estoy muy satisfecha, tiene una textura muy linda y lo puedo aplicar sin problemas antes de maquillarme."
+      
+    # testimonial item loop
+    - name : "Lola Suarez"
+      designation : ""
+      image : "images/avater.png"
+      content : "Me gusta mucho este producto, no deja mi piel grasosa ni blanca."
+      
+    # testimonial item loop
+    - name : "kristina heredia"
+      designation : "CEO, Themefisher"
+      image : "images/avater.png"
+      content : "Simplemente me encanto. Deja a piel muy suave y tiene un agradable aroma, da una apariencia muy natural a la piel... aparte de que me protege queda muy bien con el maquillaje."
